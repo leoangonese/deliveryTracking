@@ -44,3 +44,4 @@ ENTERPRISE=API_LISTAGEM_TRANSPORTADORAS
 - Express
 - MongoDB
 - ReactJS
+- TailwindCSS
