@@ -1,11 +1,10 @@
-import './App.css';
-import Footer from './components/layout/Footer';
-import ApiExample from './components/pages/core';
 
+import Footer from './components/layout/Footer';
+import HomePage from './components/pages/Core';
 function App() {
   return (
     <div className="App">
-      <ApiExample />
+      <HomePage />
       <Footer />
     </div>
   );
