@@ -1,6 +1,6 @@
 # Rastreamento de Entrega
 
-O projeto de rastreamento de entregas é uma aplicação desenvolvida para proporcionar uma experiência eficiente e transparente no acompanhamento de entregas de produtos. Através desta plataforma, os usuários têm acesso a informações detalhadas sobre suas encomendas, incluindo dados da distribuidora, status em tempo real e informações específicas do cliente.
+O projeto de Rastreamento de Entregas é uma aplicação desenvolvida para oferecer uma experiência eficiente e transparente no acompanhamento de entregas de produtos. Por meio dessa plataforma, os usuários têm acesso a informações detalhadas sobre suas encomendas, incluindo dados da distribuidora, status em tempo real e informações específicas do cliente.
 
 ## Imagens do Projeto
 
@@ -12,7 +12,7 @@ O projeto de rastreamento de entregas é uma aplicação desenvolvida para propo
 
 ![Tela de dados](/src/2.png)
 
-## Comandos para iniciar o front-end
+## Instruções para Inicialização do Front-end
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
@@ -22,7 +22,7 @@ npm i
 npm start
 ```
 
-## Comandos para iniciar o back-end
+## Instruções para Inicialização do Back-end
 
 ```bash
 cd backend
@@ -30,7 +30,8 @@ npm i
 node ./src/server.js
 ```
 
-## Ajustes para rodar o back-end(.env)
+## Configurações para Execução do Back-end (.env)
+Crie um arquivo .env no diretório backend com as seguintes configurações:
 
 ```.env
 MONGOBD=linkmongodb
@@ -45,3 +46,5 @@ ENTERPRISE=API_LISTAGEM_TRANSPORTADORAS
 - MongoDB
 - ReactJS
 - TailwindCSS
+
+Este projeto utiliza uma combinação de tecnologias modernas, incluindo NodeJS e ReactJS, para proporcionar uma experiência de rastreamento de entregas eficiente e amigável. Sinta-se à vontade para contribuir e aprimorar este projeto!
